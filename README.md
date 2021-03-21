@@ -16,7 +16,7 @@ There are three modules in this application
 ## Assignment curl API's
 
 ##### POST CALL
-curl --location --request POST 'localhost:8080/v1/employee/create' \
+`curl --location --request POST 'localhost:8080/v1/employee/create' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "first_name": "Test",
@@ -30,7 +30,6 @@ curl --location --request POST 'localhost:8080/v1/employee/create' \
         "country": "country name",
         "zip_code": 1234567
     }
-}'
-
+}' `
 ##### GET CALL
-curl --location --request GET 'localhost:8080/v1/bfs/employees/1'
+`curl --location --request GET 'localhost:8080/v1/bfs/employees/1'`
