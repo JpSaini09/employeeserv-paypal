@@ -1,0 +1,2 @@
+CREATE TABLE employee ( id INTEGER NOT NULL AUTO_INCREMENT, first_name VARCHAR(50) , last_name VARCHAR(50) , date_of_birth VARCHAR(50) , address_id VARCHAR(30));
+CREATE TABLE address ( id INTEGER NOT NULL AUTO_INCREMENT, line_1 VARCHAR(50) , line_2 VARCHAR(50) , city VARCHAR(50) , state VARCHAR(30), country VARCHAR(30), zip_code VARCHAR(30));
